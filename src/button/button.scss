@@ -1,0 +1,27 @@
+.button {
+  background-color: #FF7171;
+  color: black;
+  border-radius: 0.4em;
+  font-weight: 500;
+  padding: 0.4em;
+  border: 0.15em solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+  &.--yellow {
+    background-color: #FFFA7D;
+  }
+
+  &.--break,
+  &.--green {
+    background-color: #A0FF6F;
+  }
+
+  &.--reset,
+  &.--orange {
+    background-color: #FFB071;//#FFA461;
+  }
+
+  &.--blue {
+    background-color: #78AFFF;
+  }
+}

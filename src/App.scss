@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.my-app {
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  &__link {
+    color: #FF7171;
+    text-decoration: none;
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
+}
+
+.d-f {
+  display: flex;
+}
+
+.d-if {
+  display: inline-flex;
+}
+
+.js-sb {
+  justify-content: space-between;
+}
+
+.js-c {
+  justify-content: center;
+}
